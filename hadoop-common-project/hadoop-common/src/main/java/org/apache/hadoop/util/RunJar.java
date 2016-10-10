@@ -176,6 +176,7 @@ public class RunJar {
     }
     mainClassName = mainClassName.replaceAll("/", ".");
 
+    // TODO: SAM: hadoop-unjar directory parameter
     File tmpDir = new File(System.getProperty("java.io.tmpdir"));
     ensureDirectory(tmpDir);
 
